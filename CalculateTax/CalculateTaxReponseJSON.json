@@ -1,0 +1,138 @@
+{
+  "CalculateTaxResponse": {
+    "CalculateTaxResult": {
+      "DocumentKey": "string",
+      "SalesTaxAmount": "double",
+      "TaxJurisdictionSummary": "string",
+      "DestinationAddress": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Company": "string",
+        "Street1": "string",
+        "Street2": "string",
+        "City": "string",
+        "County": "string",
+        "Region": "string",
+        "PostalCode": "string",
+        "Country": "string",
+        "Email": "string",
+        "Phone": "string",
+        "ResidentialOrBusinessType": "string",
+        "ValidationStatus": "string",
+        "ExtendedProperties": "           
+          "
+      },
+      "OriginAddress": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Company": "string",
+        "Street1": "string",
+        "Street2": "string",
+        "City": "string",
+        "County": "string",
+        "Region": "string",
+        "PostalCode": "string",
+        "Country": "string",
+        "Email": "string",
+        "Phone": "string",
+        "ResidentialOrBusinessType": "string",
+        "ValidationStatus": "string",
+        "ExtendedProperties": "
+          "
+      },
+      "TaxJurisdictionDetails": {
+        "TaxJurisdictionDetail": [
+          {
+            "AppliedTo": "string",
+            "JurisdictionType": "string",
+            "JurisdictionName": "string",
+            "JurisdictionTaxRate": "double",
+            "JurisdictionTaxAmount": "double"
+          },
+          {
+            "AppliedTo": "string",
+            "JurisdictionType": "string",
+            "JurisdictionName": "string",
+            "JurisdictionTaxRate": "double",
+            "JurisdictionTaxAmount": "double"
+          }
+        ]
+      },
+      "TaxLineDetails": {
+        "TaxLineDetail": [
+          {
+            "LineNumber": "string",
+            "ItemKey": "string",
+            "ItemTaxabilityCode": "string",
+            "Amount": "double",
+            "ExemptAmount": "double",
+            "TaxRate": "double",
+            "SalesTaxAmount": "double"
+          },
+          {
+            "LineNumber": "string",
+            "ItemKey": "string",
+            "ItemTaxabilityCode": "string",
+            "Amount": "double",
+            "ExemptAmount": "double",
+            "TaxRate": "double",
+            "SalesTaxAmount": "double"
+          }
+        ]
+      },
+      "ExtendedProperties": {
+        "ExtendedProperties": [
+          {
+            "Key": "string",
+            "Value": "string"
+          },
+          {
+            "Key": "string",
+            "Value": "string"
+          }
+        ]
+      },
+      "Errors": {
+        "Error": [
+          {
+            "Code": "string",
+            "Key": "string",
+            "Message": "string",
+            "Target": "Null or Address or Age or Batch or Brand or Distributor or Product or SalesOrder or Shipment or Tax or SSO or License",
+            "Type": "Authentication or Server or Validation"
+          },
+          {
+            "Code": "string",
+            "Key": "string",
+            "Message": "string",
+            "Target": "Null or Address or Age or Batch or Brand or Distributor or Product or SalesOrder or Shipment or Tax or SSO or License",
+            "Type": "Authentication or Server or Validation"
+          }
+        ]
+      },
+      "ResponseStatus": "Failure or Success",
+      "EffectiveTaxDate": "string",
+      "CustomerTaxabilityCode": "string",
+      "IsCommitted": "boolean",
+      "EffectiveTaxAddressType": "string",
+      "EffectiveTaxAddress": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Company": "string",
+        "Street1": "string",
+        "Street2": "string",
+        "City": "string",
+        "County": "string",
+        "Region": "string",
+        "PostalCode": "string",
+        "Country": "string",
+        "Email": "string",
+        "Phone": "string",
+        "ResidentialOrBusinessType": "string",
+        "ValidationStatus": "string",
+        "ExtendedProperties": "
+          "
+      }
+    }
+  }
+}
