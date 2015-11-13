@@ -1,8 +1,0 @@
-{
-   CancelTax:{
-      Security:{
-         Password:'My API Key'
-      },
-      DocumentKey:'Order001'
-   }
-}
