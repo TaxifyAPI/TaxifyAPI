@@ -1,0 +1,19 @@
+{
+  CancelTax: {
+    Request: {
+      DocumentKey: 'string',
+       Options: {
+       TaxRequestOption: [
+          {
+            Key: 'string',
+            Value: 'string'
+          },
+          {
+            Key: 'string',
+            Value: 'string'
+          }
+        ]
+      }
+    }
+  }
+}

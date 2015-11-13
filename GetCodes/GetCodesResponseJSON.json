@@ -1,0 +1,13 @@
+{
+  "GetCodesResponse": {
+    "GetCodesResult": {
+      "CodeType": "string",
+      "Codes": {
+        "string": [
+          "string",
+          "string"
+        ]
+      }
+    }
+  }
+}

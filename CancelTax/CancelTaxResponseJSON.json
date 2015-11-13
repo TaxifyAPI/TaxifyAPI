@@ -1,0 +1,97 @@
+{
+  "CancelTaxResponse": {
+    "CancelTaxResult": {
+      "ExtendedProperties": {
+        "ExtendedProperties": [
+          {
+            "Key": "string",
+            "Value": "string"
+          },
+          {
+            "Key": "string",
+            "Value": "string"
+          }
+        ]
+      },
+      "Errors": {
+        "Error": [
+          {
+            "Code": "string",
+            "Data": {
+              "AddressSuggestion": {
+                "City": "string",
+                "County": "string",
+                "Details": {
+                  "CityAbbreviation": "string",
+                  "CongressionalDistrict": "string",
+                  "CountyFips": "string",
+                  "TimeZone": "string",
+                  "TimeZoneCode": "string"
+                },
+                "Parts": {
+                  "Company": "string",
+                  "MailBoxName": "string",
+                  "MailBoxNumber": "string",
+                  "PostDirection": "string",
+                  "PreDirection": "string",
+                  "StreetName": "string",
+                  "StreetNumber": "string",
+                  "StreetSuffix": "string",
+                  "SuiteName": "string",
+                  "SuiteNumber": "string"
+                },
+                "State": "string",
+                "Street1": "string",
+                "Street2": "string",
+                "Zip1": "string",
+                "Zip2": "string"
+              }
+            },
+            "Key": "string",
+            "Message": "string",
+            "Target": "Null or Address or Age or Batch or Brand or Distributor or Product or SalesOrder or Shipment or Tax or SSO",
+            "Type": "Authentication or Server or Validation"
+          },
+          {
+            "Code": "string",
+            "Data": {
+              "AddressSuggestion": {
+                "City": "string",
+                "County": "string",
+                "Details": {
+                  "CityAbbreviation": "string",
+                  "CongressionalDistrict": "string",
+                  "CountyFips": "string",
+                  "TimeZone": "string",
+                  "TimeZoneCode": "string"
+                },
+                "Parts": {
+                  "Company": "string",
+                  "MailBoxName": "string",
+                  "MailBoxNumber": "string",
+                  "PostDirection": "string",
+                  "PreDirection": "string",
+                  "StreetName": "string",
+                  "StreetNumber": "string",
+                  "StreetSuffix": "string",
+                  "SuiteName": "string",
+                  "SuiteNumber": "string"
+                },
+                "State": "string",
+                "Street1": "string",
+                "Street2": "string",
+                "Zip1": "string",
+                "Zip2": "string"
+              }
+            },
+            "Key": "string",
+            "Message": "string",
+            "Target": "Null or Address or Age or Batch or Brand or Distributor or Product or SalesOrder or Shipment or Tax or SSO",
+            "Type": "Authentication or Server or Validation"
+          }
+        ]
+      },
+      "ResponseStatus": "Failure or Success"
+    }
+  }
+}

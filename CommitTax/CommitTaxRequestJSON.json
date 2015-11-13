@@ -1,0 +1,23 @@
+{
+  CommitTax: {
+    Security:{
+         Password:'My API Key'
+      },      
+    Request: {
+      DocumentKey: 'string',
+      CommitedDocumentKey: 'string',
+      Options: {
+        TaxRequestOption: [
+          {
+            Key: 'string',
+            Value: 'string'
+          },
+          {
+            Key: 'string',
+            Value: 'string'
+          }
+        ]
+      }
+    }
+  }
+}

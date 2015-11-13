@@ -1,0 +1,23 @@
+{"d": {
+   "__type": "ShipCompliant.WebServices.Taxify.One.Core.VerifyAddressResponse",
+   "Address":    {
+      "FirstName": null,
+      "LastName": null,
+      "Company": null,
+      "Street1": "1877 Broadway",
+      "Street2": "Ste 703",
+      "City": "Boulder",
+      "County": "Boulder",
+      "Region": "CO",
+      "PostalCode": "80302-5245",
+      "Country": "US",
+      "Email": null,
+      "Phone": null,
+      "ResidentialOrBusinessType": "Business",
+      "ValidationStatus": "NotValidated",
+      "ExtendedProperties": null
+   },
+   "ExtendedProperties": null,
+   "Errors": null,
+   "ResponseStatus": 1
+}}

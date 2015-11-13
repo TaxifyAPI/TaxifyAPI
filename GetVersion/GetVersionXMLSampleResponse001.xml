@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/03/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+   <soap:Header>
+      <wsa:Action>http://taxify.co/GetVersionResponse</wsa:Action>
+      <wsa:MessageID>uuid:bef9c8fd-f491-44dc-859d-893cb81dda5d</wsa:MessageID>
+      <wsa:RelatesTo>uuid:d1972be9-409f-4cb0-9f71-65959febe2da</wsa:RelatesTo>
+      <wsa:To>http://schemas.xmlsoap.org/ws/2004/03/addressing/role/anonymous</wsa:To>
+      <wsse:Security>
+         <wsu:Timestamp wsu:Id="Timestamp-afb36932-8cb3-4bc9-a313-1a2cee43b5c0">
+            <wsu:Created>2015-10-22T21:31:35Z</wsu:Created>
+            <wsu:Expires>2015-10-22T21:36:35Z</wsu:Expires>
+         </wsu:Timestamp>
+      </wsse:Security>
+   </soap:Header>
+   <soap:Body>
+      <GetVersionResponse xmlns="http://taxify.co/">
+         <GetVersionResult>Taxify 1.0</GetVersionResult>
+      </GetVersionResponse>
+   </soap:Body>
+</soap:Envelope>
