@@ -1,7 +1,7 @@
 {
   CalculateTax: {
     Security:{
-         Password:'My API Key'
+         Password:
       },      
     Request: {
       DocumentKey: string,
