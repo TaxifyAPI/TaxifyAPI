@@ -1,6 +1,0 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tax="http://taxify.co/">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <tax:GetVersion/>
-   </soapenv:Body>
-</soapenv:Envelope>
