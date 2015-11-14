@@ -1,16 +1,16 @@
 {
   CalculateTax: {
     Security:{
-         Password: "My API Key"
+         Password: My API Key
       },      
     Request: {
-      DocumentKey: "string",
-      TaxDate: "dateTime",
+      DocumentKey: string,
+      TaxDate: dateTime,
       Lines: {
         TaxRequestLine: [
           {
-            LineNumber: 'string',
-            ItemKey: 'string',
+            LineNumber: string,
+            ItemKey: string,
             ActualExtendedPrice: decimal,
             TaxIncludedInPrice: boolean,
             Quantity: decimal,
