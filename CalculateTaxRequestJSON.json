@@ -82,7 +82,7 @@
             Order: int,
             Code: string,
             Amount: decimal,
-            DiscountType": string
+            DiscountType: string
           },
           {
             Order: int,
