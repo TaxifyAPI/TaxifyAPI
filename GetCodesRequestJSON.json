@@ -1,19 +1,19 @@
 {
-  GetCodes: {
-    GetCodes: {
-      CodeType: 'string',
-      Options: {
-        TaxRequestOption: [
-          {
-            Key: 'string',
-            Value: 'string'
-          },
-          {
-            Key: 'string',
-            Value: 'string'
-          }
-        ]
+   "GetCodes":{
+      "GetCodes":{
+         "CodeType":"string",
+         "Options":{
+            "TaxRequestOption":[
+               {
+                  "Key":"string",
+                  "Value":"string"
+               },
+               {
+                  "Key":"string",
+                  "Value":"string"
+               }
+            ]
+         }
       }
-    }
-  }
+   }
 }

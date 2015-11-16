@@ -1,6 +1,8 @@
-{"d": {
-   "__type": "ShipCompliant.WebServices.Taxify.One.Core.BasicResponse",
-   "ExtendedProperties": null,
-   "Errors": null,
-   "ResponseStatus": 1
-}}
+{
+   "d":{
+      "__type":"ShipCompliant.WebServices.Taxify.One.Core.BasicResponse",
+      "ExtendedProperties":null,
+      "Errors":null,
+      "ResponseStatus":1
+   }
+}

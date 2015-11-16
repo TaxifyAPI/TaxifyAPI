@@ -1,22 +1,23 @@
 {
-  VerifyAddress: {
-  Security:{ 
-    Password: 'My API Key'},
-    Request: {
-      Street1: 'string',
-      Street2: 'string',
-      City: 'string',
-      Region: 'string',
-      PostalCode: 'string',
-      Country: 'string',
-      Options: {
-        TaxRequestOption: [
-          {
-            Key: 'string',
-            Value: 'string'
-          }
-        ]
+   "VerifyAddress":{
+      "Security":{
+         "Password":"My API Key"
       },
-    }
-  }
+      "Request":{
+         "Street1":"string",
+         "Street2":"string",
+         "City":"string",
+         "Region":"string",
+         "PostalCode":"string",
+         "Country":"string",
+         "Options":{
+            "TaxRequestOption":[
+               {
+                  "Key":"string",
+                  "Value":"string"
+               }
+            ]
+         }
+      }
+   }
 }

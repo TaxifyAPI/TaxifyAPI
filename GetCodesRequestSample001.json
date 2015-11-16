@@ -1,8 +1,8 @@
 {
-   GetCodes:{
-      Security:{
-         Password:'My API Key'
+   "GetCodes":{
+      "Security":{
+         "Password":"My API Key"
       },
-      CodeType:'Item'
+      "CodeType":"Item"
    }
 }
