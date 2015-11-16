@@ -1,11 +1,7 @@
 {
   "CalculateTax": {
     "Security":{
-         "Password":"My API Key"
-  CalculateTax: {
-    Security:{
-         Password: My API Key
-      },      
+         "Password":"My API Key"    
     "Request": {
       "DocumentKey": "string",
       "TaxDate": "dateTime",
@@ -86,10 +82,6 @@
             "Code": "string",
             "Amount": "decimal",
             "DiscountType": "string"
-            Order: int,
-            Code: string,
-            Amount: decimal,
-            DiscountType: string
           },
           {
             "Order": "int",
