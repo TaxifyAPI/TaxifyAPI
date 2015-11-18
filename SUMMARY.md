@@ -6,4 +6,5 @@
 * [API Authentication](api_authentication.md)
 * [Key Request Properties](key_request_properties.md)
 * [CalculateTax JSON](calculatetax_json.md)
+   * Calculate Tax Request JSON
 
