@@ -1,8 +1,8 @@
 {
-   "CancelTax":{
-      "Security":{
-         "Password":"My API Key"
+   CancelTax:{
+      Security:{
+         Password:'My API Key'
       },
-      "DocumentKey":"Order001"
+      DocumentKey:'Order001'
    }
 }
