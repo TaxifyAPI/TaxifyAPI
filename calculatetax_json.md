@@ -1,6 +1,7 @@
 # CalculateTax JSON
 
-```{
+```
+{
   CalculateTax: {
     Security:{
          Password: My API Key
