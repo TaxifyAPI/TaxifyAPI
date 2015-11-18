@@ -1,97 +1,97 @@
 {
-   "CalculateTax":{
-      "Security":{
-         "Password":"My API Key"
+  CalculateTax: {
+    Security:{
+         Password: My API Key
+      },      
+    Request: {
+      DocumentKey: string,
+      TaxDate: dateTime,
+      Lines: {
+        TaxRequestLine: [
+          {
+            LineNumber: string,
+            ItemKey: string,
+            ActualExtendedPrice: decimal,
+            TaxIncludedInPrice: boolean,
+            Quantity: decimal,
+            ItemDescription: string,
+            ItemTaxabilityCode: string,
+            ItemCategories: string,
+            ItemTags: string
+          },
+          {
+            LineNumber: string,
+            ItemKey: string,
+            ActualExtendedPrice: decimal,
+            TaxIncludedInPrice: boolean,
+            Quantity: decimal,
+            ItemDescription: string,
+            ItemTaxabilityCode: string,
+            ItemCategories: string,
+            ItemTags: string
+          }
+        ]
       },
-      "Request":{
-         "DocumentKey":"string",
-         "TaxDate":"dateTime",
-         "Lines":{
-            "TaxRequestLine":[
-               {
-                  "LineNumber":"string",
-                  "ItemKey":"string",
-                  "ActualExtendedPrice":"decimal",
-                  "TaxIncludedInPrice":"boolean",
-                  "Quantity":"decimal",
-                  "ItemDescription":"string",
-                  "ItemTaxabilityCode":"string",
-                  "ItemCategories":"string",
-                  "ItemTags":"string"
-               },
-               {
-                  "LineNumber":"string",
-                  "ItemKey":"string",
-                  "ActualExtendedPrice":"decimal",
-                  "TaxIncludedInPrice":"boolean",
-                  "Quantity":"decimal",
-                  "ItemDescription":"string",
-                  "ItemTaxabilityCode":"string",
-                  "ItemCategories":"string",
-                  "ItemTags":"string"
-               }
-            ]
-         },
-         "DestinationAddress":{
-            "FirstName":"string",
-            "LastName":"string",
-            "Company":"string",
-            "Street1":"string",
-            "Street2":"string",
-            "City":"string",
-            "Region":"string",
-            "PostalCode":"string",
-            "Country":"string",
-            "Email":"string",
-            "Phone":"string"
-         },
-         "OriginAddress":{
-            "FirstName":"string",
-            "LastName":"string",
-            "Company":"string",
-            "Street1":"string",
-            "Street2":"string",
-            "City":"string",
-            "Region":"string",
-            "PostalCode":"string",
-            "Country":"string",
-            "Email":"string",
-            "Phone":"string"
-         },
-         "IsCommited":"boolean",
-         "CustomerKey":"string",
-         "CustomerTaxabilityCode":"string",
-         "CustomerRegistrationNumber":"string",
-         "Tags":{
-            "string":[
-               "string",
-               "string"
-            ]
-         },
-         "Options":{
-            "TaxRequestOption":[
-               {
-                  "Key":"string",
-                  "Value":"string"
-               }
-            ]
-         },
-         "Discounts":{
-            "Discount":[
-               {
-                  "Order":"int",
-                  "Code":"string",
-                  "Amount":"decimal",
-                  "DiscountType":"string"
-               },
-               {
-                  "Order":"int",
-                  "Code":"string",
-                  "Amount":"decimal",
-                  "DiscountType":"string"
-               }
-            ]
-         }
+      DestinationAddress: {
+        FirstName: string,
+        LastName: string,
+        Company: string,
+        Street1: string,
+        Street2: string,
+        City: string,
+        Region: string,
+        PostalCode: string,
+        Country: string,
+        Email: string,
+        Phone: string
+      },
+      OriginAddress: {
+        FirstName: string,
+        LastName: string,
+        Company: string,
+        Street1: string,
+        Street2: string,
+        City: string,
+        Region: string,
+        PostalCode: string,
+        Country: string,
+        Email: string,
+        Phone: string
+      },
+      IsCommited: boolean,
+      CustomerKey: string,
+      CustomerTaxabilityCode: string,
+      CustomerRegistrationNumber: string,
+      Tags: {
+        string: [
+          string,
+          string
+        ]
+      },
+      Options: {
+        TaxRequestOption: [
+          {
+            Key: string,
+            Value: string
+          }
+        ]
+      },
+      Discounts: {
+        Discount: [
+          {
+            Order: int,
+            Code: string,
+            Amount: decimal,
+            DiscountType: string
+          },
+          {
+            Order: int,
+            Code: string,
+            Amount: decimal,
+            DiscountType: string
+          }
+        ]
       }
-   }
+    }
+  }
 }
