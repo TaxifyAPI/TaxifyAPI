@@ -1,17 +1,15 @@
-{
-   "d":{
-      "__type":"ShipCompliant.WebServices.Taxify.One.Core.GetCodesResponse",
-      "CodeType":"Item",
-      "Codes":[
-         "CLOTHING",
-         "FOOD",
-         "FREIGHT",
-         "NONTAX",
-         "TAXABLE",
-         "WINE"
-      ],
-      "ExtendedProperties":null,
-      "Errors":null,
-      "ResponseStatus":1
-   }
-}
+{"d": {
+   "__type": "ShipCompliant.WebServices.Taxify.One.Core.GetCodesResponse",
+   "CodeType": "Item",
+   "Codes":    [
+      "CLOTHING",
+      "FOOD",
+      "FREIGHT",
+      "NONTAX",
+      "TAXABLE",
+      "WINE"
+   ],
+   "ExtendedProperties": null,
+   "Errors": null,
+   "ResponseStatus": 1
+}}
