@@ -1,4 +1,5 @@
-{"d": {
+{
+   "d": {
    "__type": "ShipCompliant.WebServices.Taxify.One.Core.CalculateTaxResponse",
    "DocumentKey": "Order001",
    "SalesTaxAmount": 9.73,
