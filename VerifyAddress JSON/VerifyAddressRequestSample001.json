@@ -1,11 +1,7 @@
 {
-   "VerifyAddress":{
-      "Security":{
-         "Password":"My API Key"
-      },
-      "Street1":"1877 Broadway suite 703",
-      "City":"Boulder",
-      "Region":"CO"
-   }
-}
-
+    VerifyAddress:{
+      Security:{ Password:'My API Key' },
+      Street1:'1877 Broadway suite 703', 
+      City: 'Boulder',
+      Region: 'CO'
+}}
