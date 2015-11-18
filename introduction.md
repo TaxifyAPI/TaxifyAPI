@@ -1,6 +1,5 @@
-# Introduction Taxify API Documentation
+# Setup Taxify API Documentation
 
-The Taxify JSON (REST) API is designed to be powerful and easy to use. The Taxify API will allow you to calculate sales tax and commit tax transactions to Taxify for automated return preparation and filing.
 
 You will need a taxify account to make use of the Taxify API. If you do not have an account, you can sign up for a free trial at: http://taxify.co
 
