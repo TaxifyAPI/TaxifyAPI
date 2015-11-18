@@ -1,4 +1,4 @@
-# Taxify Setup
+# Taxify Account Setup
 
 You will need a taxify account to make use of the Taxify API. If you do not have an account, you can sign up for a free trial at: http://taxify.co
 
