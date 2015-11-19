@@ -7,5 +7,5 @@
 * [Key Request Properties](key_request_properties.md)
 * [CalculateTax JSON](calculatetax_json.md)
    * [CalculateTaxRequestJSON](calculatetaxrequestjson.md)
-   * CalculateTaxRequestSample001
+   * [CalculateTaxRequestSample001](calculatetaxrequestsample001.md)
 
